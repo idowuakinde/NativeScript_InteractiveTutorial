@@ -1,0 +1,824 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03C681666D3F4C499C080337 /* Icon-Small-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 7222AD6760444B598D9B3743 /* Icon-Small-40.png */; };
+		05BB2CF1E6F64726A8E70DC2 /* bg_login@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C58D439E581041C59F2E49EE /* bg_login@2x.jpg */; };
+		0696A31542354D62AB64648D /* Icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A29B1AE0AA4D5F8B069AB6 /* Icon-60@3x.png */; };
+		06A9A91BC60C4321AD78CA6D /* bg_inner@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C190E7A3D05457BA2C556A7 /* bg_inner@3x.jpg */; };
+		0DA8E8D553FE4E9EA0EAD962 /* bg_login.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0BEBBB7002BB4613B65C2623 /* bg_login.jpg */; };
+		0E32CF6E84334F0295091C85 /* Icon-Small-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C481C0683FF454A95C03532 /* Icon-Small-40@2x.png */; };
+		0F4681D7C5FF45B5964BE90A /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C70CC0F3C9714F8AB96B0AD6 /* Icon-Small@2x.png */; };
+		0FDB45AE8E2F45548D20A15C /* build.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = E62AD84F17174A1A94C6C16C /* build.xcconfig */; };
+		108EEB4BF57F44BA94CD0D54 /* unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = B8A55CA14497420599996BF2 /* unchecked.png */; };
+		122E70A78E3D4A46A1359949 /* selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C6C2A2926A5A4B42B9708189 /* selected@3x.png */; };
+		129F745ABA19469483EA8907 /* delete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E95A820E9534FC5A38E07F2 /* delete@2x.png */; };
+		14E783EE46494006AFF71F7C /* TNSSideDrawer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EE68FCE90D8D4DF18C785FCC /* TNSSideDrawer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1F917266613D44B9BF166C1C /* apple@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01548AF458B64EE183C56D2B /* apple@3x.png */; };
+		20CF54AEE6B24C4A8D29B51D /* icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 0222642AA3C244CD8073306D /* icon-76.png */; };
+		2418ED079A5E41D5ADBD87CB /* TNSChart.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FE01A9A3E6AE49CB966805A6 /* TNSChart.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		25E6AFC258E24D59AD8B7DAC /* icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = A022A2B4D1C146CCA6987E0F /* icon-60.png */; };
+		2C11DAD79ED64753B4438735 /* TNSCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D1BF7DA42AC4281ACFBEA9B /* TNSCalendar.framework */; };
+		3BA5DD257D1B4B839F68D411 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B0A1C46185E435A8EF98DB2 /* Icon-Small.png */; };
+		3E195E7346F843048CCC20DF /* checked_white@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 879366E783D74C9298149743 /* checked_white@3x.png */; };
+		402FEB93E86C41CD9BDAA527 /* recent@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A4384FB04DD408FACC7D882 /* recent@3x.png */; };
+		408E4E26F5E94DAC88AC0416 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95B3E376DF70462AA1F03BD3 /* LaunchScreen.storyboard */; };
+		444382F8B31243709B9AD3C8 /* logo_signup@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF5D1ED8D8C74B4D8403DCD4 /* logo_signup@3x.png */; };
+		470D98102DB0406BBE708440 /* recent.png in Resources */ = {isa = PBXBuildFile; fileRef = F0A8966D004446AA8633F9E6 /* recent.png */; };
+		4749EC82AB2848D08DB91B57 /* logo_login.png in Resources */ = {isa = PBXBuildFile; fileRef = E8F5999651314BCABCE70527 /* logo_login.png */; };
+		47CAEC44C82F407C8DB37A02 /* unchecked_white@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22B40627437442069F6D472E /* unchecked_white@3x.png */; };
+		4B05DDF0C364497B86E3C190 /* recent@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 474705D947654EEDB243D26A /* recent@2x.png */; };
+		53768F5DE2A747FC86D0B081 /* checked@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A72A333B16694C78B4A1F529 /* checked@3x.png */; };
+		58ABD412E1CA4FE0A94F2FA3 /* TNSWidgets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47650AA447C54B9A8E7BD14F /* TNSWidgets.framework */; };
+		5A09B7BC0C4D4E6FADE0DA68 /* unchecked_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 045FA02ACA9D4BC9A94634A2 /* unchecked_white.png */; };
+		5BE6BCC735454B30BCB45936 /* bg_login@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB3E0B22379F4AA89E6E4038 /* bg_login@3x.jpg */; };
+		5EA896BC127D4FFCB1F6C488 /* TNSDataForm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7022B7D78264567AFA55759 /* TNSDataForm.framework */; };
+		67F6E06C1FDA40B49BBB6A14 /* checked_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 194216300F2747B293D70915 /* checked_white.png */; };
+		6B4F46EF0C7B40A4B13E112C /* TNSAutoComplete.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9397298F753349A9B9D68F86 /* TNSAutoComplete.framework */; };
+		72A4159BD4D5487DA78C7CF5 /* banana@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 674398B9B27343678130A76B /* banana@3x.png */; };
+		745E742B743A415F9EB13C5F /* TNSCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D0FD9C8B40142BE90EB2F82 /* TNSCore.framework */; };
+		74BFDF4E4BB24CD99879D499 /* TNSListView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E30913DF7BCF4E5BB1EED2AC /* TNSListView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		76B8167CAA0640DE83201977 /* delete@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB937AD97A08435E99A4BF92 /* delete@3x.png */; };
+		77B43465340248008E92291D /* checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 1655415E3E45408FB9A1EE26 /* checked.png */; };
+		7BFA0290B2C543B681492584 /* menu@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D91596EBC6B74766AB0E832A /* menu@3x.png */; };
+		7C06C8289C894ACBA5624B45 /* logo_login@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04D9DA9C0C6C45A985A7A794 /* logo_login@2x.png */; };
+		7DDFF30782FF426693045626 /* pear@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BDB44627B7C04DE7AE5694BB /* pear@2x.png */; };
+		81AF8CECD6A54EEEA5E471C9 /* delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FF6FB6BAE1748639AC2A696 /* delete.png */; };
+		8240AFDCE667480CB4A3B020 /* selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F579343A41F40CE9A499B53 /* selected@2x.png */; };
+		824A710C899643A2953ED97F /* unchecked_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EE04746A673471687EDB848 /* unchecked_white@2x.png */; };
+		831F0BCA330341B2BF969BBA /* TNSDataForm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C7022B7D78264567AFA55759 /* TNSDataForm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		858B842D18CA22B800AB12DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 858B833A18CA111C00AB12DE /* InfoPlist.strings */; };
+		881C16CC8B9B4623BBB2C80B /* TNSGauge.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 29C3916211B248FEAEE77926 /* TNSGauge.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8A11899C6D05432F9270F261 /* TNSAutoComplete.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9397298F753349A9B9D68F86 /* TNSAutoComplete.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8C261755720D4E288CFBF875 /* Icon-Small@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C8ECEBEFD134494796F7C9FD /* Icon-Small@3x.png */; };
+		8CD28E6B7360456381FF32BB /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 159AA07FA0CA41A1959F8DDC /* iTunesArtwork@2x.png */; };
+		8E80C0562E8A4DCF901D9561 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 81F78B69B7914FFF85B20E6D /* Icon-Small-50.png */; };
+		8EB1CDF226664567A4526D78 /* unchecked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB45D5E15FA64B568437A1C9 /* unchecked@2x.png */; };
+		8FF4DAECD2744E1290EA2099 /* menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2741AF13695D4AFAB859359C /* menu@2x.png */; };
+		9133921872AD44C8BC434FE3 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 81FC6CD0B02D4D5C9EFC2DD2 /* menu.png */; };
+		932E77799886F9BC8BD0C844 /* Pods_NativeScriptInteractiveTutorial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C75BF5FA002128DC8C7EBED /* Pods_NativeScriptInteractiveTutorial.framework */; };
+		954AA0DFF6154F71AD571076 /* selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 66F701215688426783DB6257 /* selected.png */; };
+		9679A1989A894E2A83D39982 /* TNSCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5D0FD9C8B40142BE90EB2F82 /* TNSCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		98E981B88DCA42459EDBE8B3 /* apple@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DB17DB6F1CE4E9198D3E348 /* apple@2x.png */; };
+		99AC23CC598448FCB55105E7 /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = C5A208E0A2B549BC94F7852A /* apple.png */; };
+		9E7D4D994393429D840E30C8 /* logo_signup.png in Resources */ = {isa = PBXBuildFile; fileRef = B8989DFE2F0E4E0A9A7910F2 /* logo_signup.png */; };
+		A52A45F39DB24036B4A650AF /* banana.png in Resources */ = {isa = PBXBuildFile; fileRef = 65DC2B4D76854F37B9CCF910 /* banana.png */; };
+		AB216B0589CA4864A05B70D1 /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 431169A0D1C34E4B9CCB728F /* icon-72.png */; };
+		AD5782A942FD4C319CAD32EF /* TNSCalendar.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9D1BF7DA42AC4281ACFBEA9B /* TNSCalendar.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AE86A5CC3F994A1990E91ABC /* checked_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6006AA6A41064C5F834EB7EB /* checked_white@2x.png */; };
+		B1BD04E79B454D25B39BB560 /* icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F39E457B6E24E65A93BA6E5 /* icon-76@2x.png */; };
+		B40CC8F6DA434B45907FA42D /* add@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F459184D7DC746E2892DE747 /* add@2x.png */; };
+		B42AB4417D6546AEB0976040 /* Icon-Small-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F698BF7948734CD4B1E7D5B1 /* Icon-Small-40@3x.png */; };
+		B6B3FE2CFEBF4BB6B6A01CEA /* add@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B89485DFFCA4E48A1324C8F /* add@3x.png */; };
+		BADBA38FBD5E4D838CC8CF25 /* icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF08042D05704F4C8D0A74CA /* icon-72@2x.png */; };
+		BCC7FE87C8844F6092CAA696 /* TNSChart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE01A9A3E6AE49CB966805A6 /* TNSChart.framework */; };
+		BD5CAC8B115C4B8DAC16928E /* bg_inner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22448A706933459C82A56964 /* bg_inner.jpg */; };
+		C2B11E4E65DC4DD2B620B02C /* TNSListView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E30913DF7BCF4E5BB1EED2AC /* TNSListView.framework */; };
+		C4557C6B3DD24DFF9D8C4EC1 /* NativeScriptEmbedder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6879E259487B404AA2E2E7E1 /* NativeScriptEmbedder.m */; };
+		C5403D9CABBD40208728FB81 /* bg_inner@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD6D37A476F945358124CC17 /* bg_inner@2x.jpg */; };
+		C54F7098968D4B2889A509E6 /* nonselected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBE15322B0954CC98DFDCFF6 /* nonselected@3x.png */; };
+		C6CFD045B2A540889CB987FD /* TNSGauge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29C3916211B248FEAEE77926 /* TNSGauge.framework */; };
+		CBE7E523AF9F4573896E3DAB /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = 43729BCBA7174C728836A227 /* add.png */; };
+		CD45EE7C18DC2D5800FB50C0 /* app in Resources */ = {isa = PBXBuildFile; fileRef = CD45EE7A18DC2D5800FB50C0 /* app */; };
+		CD62955D1BB2678900AE3A93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD62955C1BB2678900AE3A93 /* main.m */; };
+		CF0204ADADDC4B5AA5F9CA95 /* icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD1F01E41EA44B9590EDDCA3 /* icon-60@2x.png */; };
+		CF1A56DF75BD42358C12C469 /* banana@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC090F214B04445C93670DF2 /* banana@2x.png */; };
+		CF42773514B14FE58C0F08B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF7997A373E047E5BB87022C /* Assets.xcassets */; };
+		CF6ED68E7719403F8F532365 /* nonselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 53F552714F974025A26005FE /* nonselected.png */; };
+		D37870C7E8664A7C9391D27C /* nonselected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 19DED44D174F4334B21F382C /* nonselected@2x.png */; };
+		DA03B76DB2044EA3B0E40021 /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D59B21F3A50432880E452C2 /* Icon-Small-50@2x.png */; };
+		DE58DEE8628E4D0C9F32B222 /* TNSWidgets.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 47650AA447C54B9A8E7BD14F /* TNSWidgets.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DEE152F869D24C74AF103AC0 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E366B056D444AAFA836F9CB /* icon@2x.png */; };
+		EA25ECF8AAF845CF915DF1C9 /* unchecked@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D77F8546790B4FD5820EF78D /* unchecked@3x.png */; };
+		F5AB12A319714A908E28FE10 /* pear@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DC3D9D639B749A98F25854C /* pear@3x.png */; };
+		F7D6984BB4324FB4A223DD73 /* pear.png in Resources */ = {isa = PBXBuildFile; fileRef = 57428469F08B46328361C6F2 /* pear.png */; };
+		FA4E7C50C0B2465394F8380F /* logo_signup@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 737130BC2FA94F5BBD1B10F5 /* logo_signup@2x.png */; };
+		FB9CC2406E64492FB6E60205 /* logo_login@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAEF0F52627F4CE581CEE8E6 /* logo_login@3x.png */; };
+		FC226C9CBD0F480DB92169AE /* TNSSideDrawer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE68FCE90D8D4DF18C785FCC /* TNSSideDrawer.framework */; };
+		FDD0CE16DE5A453799723105 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A60F76B5B3354D539020E236 /* icon.png */; };
+		FE8BBBA534BE46CF9B6C5BB4 /* checked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A05577474D149B790507D93 /* checked@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		85F5BDFC1A9363BE006B9701 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8A11899C6D05432F9270F261 /* TNSAutoComplete.framework in Embed Frameworks */,
+				AD5782A942FD4C319CAD32EF /* TNSCalendar.framework in Embed Frameworks */,
+				2418ED079A5E41D5ADBD87CB /* TNSChart.framework in Embed Frameworks */,
+				831F0BCA330341B2BF969BBA /* TNSDataForm.framework in Embed Frameworks */,
+				881C16CC8B9B4623BBB2C80B /* TNSGauge.framework in Embed Frameworks */,
+				74BFDF4E4BB24CD99879D499 /* TNSListView.framework in Embed Frameworks */,
+				14E783EE46494006AFF71F7C /* TNSSideDrawer.framework in Embed Frameworks */,
+				9679A1989A894E2A83D39982 /* TNSCore.framework in Embed Frameworks */,
+				DE58DEE8628E4D0C9F32B222 /* TNSWidgets.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		01548AF458B64EE183C56D2B /* apple@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "apple@3x.png"; path = "NativeScriptInteractiveTutorial/Resources/apple@3x.png"; sourceTree = "<group>"; };
+		0222642AA3C244CD8073306D /* icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-76.png"; path = "NativeScriptInteractiveTutorial/Resources/icon-76.png"; sourceTree = "<group>"; };
+		045FA02ACA9D4BC9A94634A2 /* unchecked_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = unchecked_white.png; path = NativeScriptInteractiveTutorial/Resources/unchecked_white.png; sourceTree = "<group>"; };
+		04D9DA9C0C6C45A985A7A794 /* logo_login@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo_login@2x.png"; path = "NativeScriptInteractiveTutorial/Resources/logo_login@2x.png"; sourceTree = "<group>"; };
+		0BEBBB7002BB4613B65C2623 /* bg_login.jpg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = bg_login.jpg; path = NativeScriptInteractiveTutorial/Resources/bg_login.jpg; sourceTree = "<group>"; };
+		0DC3D9D639B749A98F25854C /* pear@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pear@3x.png"; path = "NativeScriptInteractiveTutorial/Resources/pear@3x.png"; sourceTree = "<group>"; };
+		159AA07FA0CA41A1959F8DDC /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iTunesArtwork@2x.png"; path = "NativeScriptInteractiveTutorial/Resources/iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		1655415E3E45408FB9A1EE26 /* checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = checked.png; path = NativeScriptInteractiveTutorial/Resources/checked.png; sourceTree = "<group>"; };
+		194216300F2747B293D70915 /* checked_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = checked_white.png; path = NativeScriptInteractiveTutorial/Resources/checked_white.png; sourceTree = "<group>"; };
+		19DED44D174F4334B21F382C /* nonselected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "nonselected@2x.png"; path = "NativeScriptInteractiveTutorial/Resources/nonselected@2x.png"; sourceTree = "<group>"; };
+		1C190E7A3D05457BA2C556A7 /* bg_inner@3x.jpg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = "bg_inner@3x.jpg"; path = "NativeScriptInteractiveTutorial/Resources/bg_inner@3x.jpg"; sourceTree = "<group>"; };
+		1E366B056D444AAFA836F9CB /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "NativeScriptInteractiveTutorial/Resources/icon@2x.png"; sourceTree = "<group>"; };
+		22448A706933459C82A56964 /* bg_inner.jpg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = bg_inner.jpg; path = NativeScriptInteractiveTutorial/Resources/bg_inner.jpg; sourceTree = "<group>"; };
+		22B40627437442069F6D472E /* unchecked_white@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "unchecked_white@3x.png"; path = "NativeScriptInteractiveTutorial/Resources/unchecked_white@3x.png"; sourceTree = "<group>"; };
+		2741AF13695D4AFAB859359C /* menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "menu@2x.png"; path = "NativeScriptInteractiveTutorial/Resources/menu@2x.png"; sourceTree = "<group>"; };
+		29C3916211B248FEAEE77926 /* TNSGauge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TNSGauge.framework; path = "$(SRCROOT)/../../node_modules/nativescript-ui-gauge/platforms/ios/TNSGauge.framework"; sourceTree = "<group>"; };
+		2DB17DB6F1CE4E9198D3E348 /* apple@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "apple@2x.png"; path = "NativeScriptInteractiveTutorial/Resources/apple@2x.png"; sourceTree = "<group>"; };
+		2EE04746A673471687EDB848 /* unchecked_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "unchecked_white@2x.png"; path = "NativeScriptInteractiveTutorial/Resources/unchecked_white@2x.png"; sourceTree = "<group>"; };
+		2F579343A41F40CE9A499B53 /* selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "selected@2x.png"; path = "NativeScriptInteractiveTutorial/Resources/selected@2x.png"; sourceTree = "<group>"; };
+		3A4384FB04DD408FACC7D882 /* recent@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "recent@3x.png"; path = "NativeScriptInteractiveTutorial/Resources/recent@3x.png"; sourceTree = "<group>"; };
+		431169A0D1C34E4B9CCB728F /* icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-72.png"; path = "NativeScriptInteractiveTutorial/Resources/icon-72.png"; sourceTree = "<group>"; };
+		43729BCBA7174C728836A227 /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = add.png; path = NativeScriptInteractiveTutorial/Resources/add.png; sourceTree = "<group>"; };
+		474705D947654EEDB243D26A /* recent@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "recent@2x.png"; path = "NativeScriptInteractiveTutorial/Resources/recent@2x.png"; sourceTree = "<group>"; };
+		47650AA447C54B9A8E7BD14F /* TNSWidgets.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TNSWidgets.framework; path = "$(SRCROOT)/../../node_modules/tns-core-modules-widgets/platforms/ios/TNSWidgets.framework"; sourceTree = "<group>"; };
+		53F552714F974025A26005FE /* nonselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nonselected.png; path = NativeScriptInteractiveTutorial/Resources/nonselected.png; sourceTree = "<group>"; };
+		57428469F08B46328361C6F2 /* pear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pear.png; path = NativeScriptInteractiveTutorial/Resources/pear.png; sourceTree = "<group>"; };
+		5C481C0683FF454A95C03532 /* Icon-Small-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-40@2x.png"; path = "NativeScriptInteractiveTutorial/Resources/Icon-Small-40@2x.png"; sourceTree = "<group>"; };
+		5C75BF5FA002128DC8C7EBED /* Pods_NativeScriptInteractiveTutorial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NativeScriptInteractiveTutorial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D0FD9C8B40142BE90EB2F82 /* TNSCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TNSCore.framework; path = "$(SRCROOT)/../../node_modules/nativescript-ui-core/platforms/ios/TNSCore.framework"; sourceTree = "<group>"; };
+		5F39E457B6E24E65A93BA6E5 /* icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-76@2x.png"; path = "NativeScriptInteractiveTutorial/Resources/icon-76@2x.png"; sourceTree = "<group>"; };
+		6006AA6A41064C5F834EB7EB /* checked_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "checked_white@2x.png"; path = "NativeScriptInteractiveTutorial/Resources/checked_white@2x.png"; sourceTree = "<group>"; };
+		65DC2B4D76854F37B9CCF910 /* banana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = banana.png; path = NativeScriptInteractiveTutorial/Resources/banana.png; sourceTree = "<group>"; };
+		66F701215688426783DB6257 /* selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = selected.png; path = NativeScriptInteractiveTutorial/Resources/selected.png; sourceTree = "<group>"; };
+		674398B9B27343678130A76B /* banana@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "banana@3x.png"; path = "NativeScriptInteractiveTutorial/Resources/banana@3x.png"; sourceTree = "<group>"; };
+		6879E259487B404AA2E2E7E1 /* NativeScriptEmbedder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NativeScriptEmbedder.m; path = "../../node_modules/tns-core-modules/platforms/ios/src/NativeScriptEmbedder.m"; sourceTree = "<group>"; };
+		6A05577474D149B790507D93 /* checked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "checked@2x.png"; path = "NativeScriptInteractiveTutorial/Resources/checked@2x.png"; sourceTree = "<group>"; };
+		6B0A1C46185E435A8EF98DB2 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small.png"; path = "NativeScriptInteractiveTutorial/Resources/Icon-Small.png"; sourceTree = "<group>"; };
+		7222AD6760444B598D9B3743 /* Icon-Small-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-40.png"; path = "NativeScriptInteractiveTutorial/Resources/Icon-Small-40.png"; sourceTree = "<group>"; };
+		737130BC2FA94F5BBD1B10F5 /* logo_signup@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo_signup@2x.png"; path = "NativeScriptInteractiveTutorial/Resources/logo_signup@2x.png"; sourceTree = "<group>"; };
+		7B89485DFFCA4E48A1324C8F /* add@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "add@3x.png"; path = "NativeScriptInteractiveTutorial/Resources/add@3x.png"; sourceTree = "<group>"; };
+		7EB7E64837B54C679C693269 /* NativeScriptEmbedder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NativeScriptEmbedder.h; path = "../../node_modules/tns-core-modules/platforms/ios/src/NativeScriptEmbedder.h"; sourceTree = "<group>"; };
+		7FF6FB6BAE1748639AC2A696 /* delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = delete.png; path = NativeScriptInteractiveTutorial/Resources/delete.png; sourceTree = "<group>"; };
+		81F78B69B7914FFF85B20E6D /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50.png"; path = "NativeScriptInteractiveTutorial/Resources/Icon-Small-50.png"; sourceTree = "<group>"; };
+		81FC6CD0B02D4D5C9EFC2DD2 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menu.png; path = NativeScriptInteractiveTutorial/Resources/menu.png; sourceTree = "<group>"; };
+		858B832E18CA111C00AB12DE /* NativeScriptInteractiveTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NativeScriptInteractiveTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		858B833918CA111C00AB12DE /* NativeScriptInteractiveTutorial-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NativeScriptInteractiveTutorial-Info.plist"; sourceTree = "<group>"; };
+		858B833B18CA111C00AB12DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		858B833F18CA111C00AB12DE /* NativeScriptInteractiveTutorial-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NativeScriptInteractiveTutorial-Prefix.pch"; sourceTree = "<group>"; };
+		858B843318CA22B800AB12DE /* NativeScriptInteractiveTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NativeScriptInteractiveTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		879366E783D74C9298149743 /* checked_white@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "checked_white@3x.png"; path = "NativeScriptInteractiveTutorial/Resources/checked_white@3x.png"; sourceTree = "<group>"; };
+		8E95A820E9534FC5A38E07F2 /* delete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "delete@2x.png"; path = "NativeScriptInteractiveTutorial/Resources/delete@2x.png"; sourceTree = "<group>"; };
+		9397298F753349A9B9D68F86 /* TNSAutoComplete.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TNSAutoComplete.framework; path = "$(SRCROOT)/../../node_modules/nativescript-ui-autocomplete/platforms/ios/TNSAutoComplete.framework"; sourceTree = "<group>"; };
+		95B3E376DF70462AA1F03BD3 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = LaunchScreen.storyboard; path = NativeScriptInteractiveTutorial/Resources/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9D1BF7DA42AC4281ACFBEA9B /* TNSCalendar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TNSCalendar.framework; path = "$(SRCROOT)/../../node_modules/nativescript-ui-calendar/platforms/ios/TNSCalendar.framework"; sourceTree = "<group>"; };
+		9D59B21F3A50432880E452C2 /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50@2x.png"; path = "NativeScriptInteractiveTutorial/Resources/Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		A022A2B4D1C146CCA6987E0F /* icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-60.png"; path = "NativeScriptInteractiveTutorial/Resources/icon-60.png"; sourceTree = "<group>"; };
+		A60F76B5B3354D539020E236 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = NativeScriptInteractiveTutorial/Resources/icon.png; sourceTree = "<group>"; };
+		A72A333B16694C78B4A1F529 /* checked@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "checked@3x.png"; path = "NativeScriptInteractiveTutorial/Resources/checked@3x.png"; sourceTree = "<group>"; };
+		AD1F01E41EA44B9590EDDCA3 /* icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-60@2x.png"; path = "NativeScriptInteractiveTutorial/Resources/icon-60@2x.png"; sourceTree = "<group>"; };
+		AD6D37A476F945358124CC17 /* bg_inner@2x.jpg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = "bg_inner@2x.jpg"; path = "NativeScriptInteractiveTutorial/Resources/bg_inner@2x.jpg"; sourceTree = "<group>"; };
+		B8989DFE2F0E4E0A9A7910F2 /* logo_signup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_signup.png; path = NativeScriptInteractiveTutorial/Resources/logo_signup.png; sourceTree = "<group>"; };
+		B8A55CA14497420599996BF2 /* unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = unchecked.png; path = NativeScriptInteractiveTutorial/Resources/unchecked.png; sourceTree = "<group>"; };
+		BDB44627B7C04DE7AE5694BB /* pear@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pear@2x.png"; path = "NativeScriptInteractiveTutorial/Resources/pear@2x.png"; sourceTree = "<group>"; };
+		BF08042D05704F4C8D0A74CA /* icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-72@2x.png"; path = "NativeScriptInteractiveTutorial/Resources/icon-72@2x.png"; sourceTree = "<group>"; };
+		C58D439E581041C59F2E49EE /* bg_login@2x.jpg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = "bg_login@2x.jpg"; path = "NativeScriptInteractiveTutorial/Resources/bg_login@2x.jpg"; sourceTree = "<group>"; };
+		C5A208E0A2B549BC94F7852A /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = apple.png; path = NativeScriptInteractiveTutorial/Resources/apple.png; sourceTree = "<group>"; };
+		C6C2A2926A5A4B42B9708189 /* selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "selected@3x.png"; path = "NativeScriptInteractiveTutorial/Resources/selected@3x.png"; sourceTree = "<group>"; };
+		C7022B7D78264567AFA55759 /* TNSDataForm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TNSDataForm.framework; path = "$(SRCROOT)/../../node_modules/nativescript-ui-dataform/platforms/ios/TNSDataForm.framework"; sourceTree = "<group>"; };
+		C70CC0F3C9714F8AB96B0AD6 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@2x.png"; path = "NativeScriptInteractiveTutorial/Resources/Icon-Small@2x.png"; sourceTree = "<group>"; };
+		C8ECEBEFD134494796F7C9FD /* Icon-Small@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@3x.png"; path = "NativeScriptInteractiveTutorial/Resources/Icon-Small@3x.png"; sourceTree = "<group>"; };
+		CD45EE7A18DC2D5800FB50C0 /* app */ = {isa = PBXFileReference; lastKnownFileType = folder; path = app; sourceTree = "<group>"; };
+		CD62955C1BB2678900AE3A93 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = internal/main.m; sourceTree = SOURCE_ROOT; };
+		CDD59A261BB43B5D00EC2671 /* build-debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "build-debug.xcconfig"; sourceTree = "<group>"; };
+		CDD59A271BB43B5D00EC2671 /* build-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "build-release.xcconfig"; sourceTree = "<group>"; };
+		CDF4743E1BA4855C0087EA85 /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = build.xcconfig; sourceTree = "<group>"; };
+		D77F8546790B4FD5820EF78D /* unchecked@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "unchecked@3x.png"; path = "NativeScriptInteractiveTutorial/Resources/unchecked@3x.png"; sourceTree = "<group>"; };
+		D91596EBC6B74766AB0E832A /* menu@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "menu@3x.png"; path = "NativeScriptInteractiveTutorial/Resources/menu@3x.png"; sourceTree = "<group>"; };
+		DB3E0B22379F4AA89E6E4038 /* bg_login@3x.jpg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = "bg_login@3x.jpg"; path = "NativeScriptInteractiveTutorial/Resources/bg_login@3x.jpg"; sourceTree = "<group>"; };
+		DF5D1ED8D8C74B4D8403DCD4 /* logo_signup@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo_signup@3x.png"; path = "NativeScriptInteractiveTutorial/Resources/logo_signup@3x.png"; sourceTree = "<group>"; };
+		E0A29B1AE0AA4D5F8B069AB6 /* Icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-60@3x.png"; path = "NativeScriptInteractiveTutorial/Resources/Icon-60@3x.png"; sourceTree = "<group>"; };
+		E30913DF7BCF4E5BB1EED2AC /* TNSListView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TNSListView.framework; path = "$(SRCROOT)/../../node_modules/nativescript-ui-listview/platforms/ios/TNSListView.framework"; sourceTree = "<group>"; };
+		E62AD84F17174A1A94C6C16C /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = build.xcconfig; path = NativeScriptInteractiveTutorial/Resources/build.xcconfig; sourceTree = "<group>"; };
+		E8F5999651314BCABCE70527 /* logo_login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_login.png; path = NativeScriptInteractiveTutorial/Resources/logo_login.png; sourceTree = "<group>"; };
+		EAEF0F52627F4CE581CEE8E6 /* logo_login@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo_login@3x.png"; path = "NativeScriptInteractiveTutorial/Resources/logo_login@3x.png"; sourceTree = "<group>"; };
+		EB45D5E15FA64B568437A1C9 /* unchecked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "unchecked@2x.png"; path = "NativeScriptInteractiveTutorial/Resources/unchecked@2x.png"; sourceTree = "<group>"; };
+		EE68FCE90D8D4DF18C785FCC /* TNSSideDrawer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TNSSideDrawer.framework; path = "$(SRCROOT)/../../node_modules/nativescript-ui-sidedrawer/platforms/ios/TNSSideDrawer.framework"; sourceTree = "<group>"; };
+		EF7997A373E047E5BB87022C /* Assets.xcassets */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = Assets.xcassets; path = NativeScriptInteractiveTutorial/Resources/Assets.xcassets; sourceTree = "<group>"; };
+		F0A8966D004446AA8633F9E6 /* recent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = recent.png; path = NativeScriptInteractiveTutorial/Resources/recent.png; sourceTree = "<group>"; };
+		F459184D7DC746E2892DE747 /* add@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "add@2x.png"; path = "NativeScriptInteractiveTutorial/Resources/add@2x.png"; sourceTree = "<group>"; };
+		F698BF7948734CD4B1E7D5B1 /* Icon-Small-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-40@3x.png"; path = "NativeScriptInteractiveTutorial/Resources/Icon-Small-40@3x.png"; sourceTree = "<group>"; };
+		FB937AD97A08435E99A4BF92 /* delete@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "delete@3x.png"; path = "NativeScriptInteractiveTutorial/Resources/delete@3x.png"; sourceTree = "<group>"; };
+		FBE15322B0954CC98DFDCFF6 /* nonselected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "nonselected@3x.png"; path = "NativeScriptInteractiveTutorial/Resources/nonselected@3x.png"; sourceTree = "<group>"; };
+		FC090F214B04445C93670DF2 /* banana@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "banana@2x.png"; path = "NativeScriptInteractiveTutorial/Resources/banana@2x.png"; sourceTree = "<group>"; };
+		FE01A9A3E6AE49CB966805A6 /* TNSChart.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TNSChart.framework; path = "$(SRCROOT)/../../node_modules/nativescript-ui-chart/platforms/ios/TNSChart.framework"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		858B83F418CA22B800AB12DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B4F46EF0C7B40A4B13E112C /* TNSAutoComplete.framework in Frameworks */,
+				2C11DAD79ED64753B4438735 /* TNSCalendar.framework in Frameworks */,
+				BCC7FE87C8844F6092CAA696 /* TNSChart.framework in Frameworks */,
+				5EA896BC127D4FFCB1F6C488 /* TNSDataForm.framework in Frameworks */,
+				C6CFD045B2A540889CB987FD /* TNSGauge.framework in Frameworks */,
+				C2B11E4E65DC4DD2B620B02C /* TNSListView.framework in Frameworks */,
+				FC226C9CBD0F480DB92169AE /* TNSSideDrawer.framework in Frameworks */,
+				745E742B743A415F9EB13C5F /* TNSCore.framework in Frameworks */,
+				58ABD412E1CA4FE0A94F2FA3 /* TNSWidgets.framework in Frameworks */,
+				932E77799886F9BC8BD0C844 /* Pods_NativeScriptInteractiveTutorial.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		858B832518CA111C00AB12DE = {
+			isa = PBXGroup;
+			children = (
+				E070579D1B39A9D000214BF1 /* Resources */,
+				858B833718CA111C00AB12DE /* NativeScriptInteractiveTutorial */,
+				858B833018CA111C00AB12DE /* Frameworks */,
+				858B832F18CA111C00AB12DE /* Products */,
+				EEC62E0466844A63BA9D0533 /* tns-core-modules */,
+				C3BB41AA859BF3C135450ADC /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		858B832F18CA111C00AB12DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				858B832E18CA111C00AB12DE /* NativeScriptInteractiveTutorial.app */,
+				858B843318CA22B800AB12DE /* NativeScriptInteractiveTutorial.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		858B833018CA111C00AB12DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9397298F753349A9B9D68F86 /* TNSAutoComplete.framework */,
+				9D1BF7DA42AC4281ACFBEA9B /* TNSCalendar.framework */,
+				FE01A9A3E6AE49CB966805A6 /* TNSChart.framework */,
+				C7022B7D78264567AFA55759 /* TNSDataForm.framework */,
+				29C3916211B248FEAEE77926 /* TNSGauge.framework */,
+				E30913DF7BCF4E5BB1EED2AC /* TNSListView.framework */,
+				EE68FCE90D8D4DF18C785FCC /* TNSSideDrawer.framework */,
+				5D0FD9C8B40142BE90EB2F82 /* TNSCore.framework */,
+				47650AA447C54B9A8E7BD14F /* TNSWidgets.framework */,
+				5C75BF5FA002128DC8C7EBED /* Pods_NativeScriptInteractiveTutorial.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		858B833718CA111C00AB12DE /* NativeScriptInteractiveTutorial */ = {
+			isa = PBXGroup;
+			children = (
+				CD45EE7A18DC2D5800FB50C0 /* app */,
+				858B833818CA111C00AB12DE /* Supporting Files */,
+			);
+			path = NativeScriptInteractiveTutorial;
+			sourceTree = "<group>";
+		};
+		858B833818CA111C00AB12DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDF4743E1BA4855C0087EA85 /* build.xcconfig */,
+				CDD59A261BB43B5D00EC2671 /* build-debug.xcconfig */,
+				CDD59A271BB43B5D00EC2671 /* build-release.xcconfig */,
+				858B833918CA111C00AB12DE /* NativeScriptInteractiveTutorial-Info.plist */,
+				858B833A18CA111C00AB12DE /* InfoPlist.strings */,
+				CD62955C1BB2678900AE3A93 /* main.m */,
+				858B833F18CA111C00AB12DE /* NativeScriptInteractiveTutorial-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C3BB41AA859BF3C135450ADC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E070579D1B39A9D000214BF1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EF7997A373E047E5BB87022C /* Assets.xcassets */,
+				E0A29B1AE0AA4D5F8B069AB6 /* Icon-60@3x.png */,
+				7222AD6760444B598D9B3743 /* Icon-Small-40.png */,
+				5C481C0683FF454A95C03532 /* Icon-Small-40@2x.png */,
+				F698BF7948734CD4B1E7D5B1 /* Icon-Small-40@3x.png */,
+				81F78B69B7914FFF85B20E6D /* Icon-Small-50.png */,
+				9D59B21F3A50432880E452C2 /* Icon-Small-50@2x.png */,
+				6B0A1C46185E435A8EF98DB2 /* Icon-Small.png */,
+				C70CC0F3C9714F8AB96B0AD6 /* Icon-Small@2x.png */,
+				C8ECEBEFD134494796F7C9FD /* Icon-Small@3x.png */,
+				95B3E376DF70462AA1F03BD3 /* LaunchScreen.storyboard */,
+				43729BCBA7174C728836A227 /* add.png */,
+				F459184D7DC746E2892DE747 /* add@2x.png */,
+				7B89485DFFCA4E48A1324C8F /* add@3x.png */,
+				C5A208E0A2B549BC94F7852A /* apple.png */,
+				2DB17DB6F1CE4E9198D3E348 /* apple@2x.png */,
+				01548AF458B64EE183C56D2B /* apple@3x.png */,
+				65DC2B4D76854F37B9CCF910 /* banana.png */,
+				FC090F214B04445C93670DF2 /* banana@2x.png */,
+				674398B9B27343678130A76B /* banana@3x.png */,
+				22448A706933459C82A56964 /* bg_inner.jpg */,
+				AD6D37A476F945358124CC17 /* bg_inner@2x.jpg */,
+				1C190E7A3D05457BA2C556A7 /* bg_inner@3x.jpg */,
+				0BEBBB7002BB4613B65C2623 /* bg_login.jpg */,
+				C58D439E581041C59F2E49EE /* bg_login@2x.jpg */,
+				DB3E0B22379F4AA89E6E4038 /* bg_login@3x.jpg */,
+				E62AD84F17174A1A94C6C16C /* build.xcconfig */,
+				1655415E3E45408FB9A1EE26 /* checked.png */,
+				6A05577474D149B790507D93 /* checked@2x.png */,
+				A72A333B16694C78B4A1F529 /* checked@3x.png */,
+				194216300F2747B293D70915 /* checked_white.png */,
+				6006AA6A41064C5F834EB7EB /* checked_white@2x.png */,
+				879366E783D74C9298149743 /* checked_white@3x.png */,
+				7FF6FB6BAE1748639AC2A696 /* delete.png */,
+				8E95A820E9534FC5A38E07F2 /* delete@2x.png */,
+				FB937AD97A08435E99A4BF92 /* delete@3x.png */,
+				159AA07FA0CA41A1959F8DDC /* iTunesArtwork@2x.png */,
+				A022A2B4D1C146CCA6987E0F /* icon-60.png */,
+				AD1F01E41EA44B9590EDDCA3 /* icon-60@2x.png */,
+				431169A0D1C34E4B9CCB728F /* icon-72.png */,
+				BF08042D05704F4C8D0A74CA /* icon-72@2x.png */,
+				0222642AA3C244CD8073306D /* icon-76.png */,
+				5F39E457B6E24E65A93BA6E5 /* icon-76@2x.png */,
+				A60F76B5B3354D539020E236 /* icon.png */,
+				1E366B056D444AAFA836F9CB /* icon@2x.png */,
+				E8F5999651314BCABCE70527 /* logo_login.png */,
+				04D9DA9C0C6C45A985A7A794 /* logo_login@2x.png */,
+				EAEF0F52627F4CE581CEE8E6 /* logo_login@3x.png */,
+				B8989DFE2F0E4E0A9A7910F2 /* logo_signup.png */,
+				737130BC2FA94F5BBD1B10F5 /* logo_signup@2x.png */,
+				DF5D1ED8D8C74B4D8403DCD4 /* logo_signup@3x.png */,
+				81FC6CD0B02D4D5C9EFC2DD2 /* menu.png */,
+				2741AF13695D4AFAB859359C /* menu@2x.png */,
+				D91596EBC6B74766AB0E832A /* menu@3x.png */,
+				53F552714F974025A26005FE /* nonselected.png */,
+				19DED44D174F4334B21F382C /* nonselected@2x.png */,
+				FBE15322B0954CC98DFDCFF6 /* nonselected@3x.png */,
+				57428469F08B46328361C6F2 /* pear.png */,
+				BDB44627B7C04DE7AE5694BB /* pear@2x.png */,
+				0DC3D9D639B749A98F25854C /* pear@3x.png */,
+				F0A8966D004446AA8633F9E6 /* recent.png */,
+				474705D947654EEDB243D26A /* recent@2x.png */,
+				3A4384FB04DD408FACC7D882 /* recent@3x.png */,
+				66F701215688426783DB6257 /* selected.png */,
+				2F579343A41F40CE9A499B53 /* selected@2x.png */,
+				C6C2A2926A5A4B42B9708189 /* selected@3x.png */,
+				B8A55CA14497420599996BF2 /* unchecked.png */,
+				EB45D5E15FA64B568437A1C9 /* unchecked@2x.png */,
+				D77F8546790B4FD5820EF78D /* unchecked@3x.png */,
+				045FA02ACA9D4BC9A94634A2 /* unchecked_white.png */,
+				2EE04746A673471687EDB848 /* unchecked_white@2x.png */,
+				22B40627437442069F6D472E /* unchecked_white@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		EEC62E0466844A63BA9D0533 /* tns-core-modules */ = {
+			isa = PBXGroup;
+			children = (
+				7EB7E64837B54C679C693269 /* NativeScriptEmbedder.h */,
+				6879E259487B404AA2E2E7E1 /* NativeScriptEmbedder.m */,
+			);
+			name = "tns-core-modules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		858B83EF18CA22B800AB12DE /* NativeScriptInteractiveTutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 858B843018CA22B800AB12DE /* Build configuration list for PBXNativeTarget "NativeScriptInteractiveTutorial" */;
+			buildPhases = (
+				6AF908C3E71CD2054514627F /* [CP] Check Pods Manifest.lock */,
+				C97FD7AC1ADE5369004DB2A4 /* NativeScript PreBuild */,
+				858B83F218CA22B800AB12DE /* Sources */,
+				CD62955B1BB2651D00AE3A93 /* NativeScript PreLink */,
+				858B83F418CA22B800AB12DE /* Frameworks */,
+				858B842C18CA22B800AB12DE /* Resources */,
+				85F5BDFC1A9363BE006B9701 /* Embed Frameworks */,
+				CD3EAD351B05FF060042DBFC /* NativeScript PostBuild */,
+				E5B396373B12CA5310B96DBB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NativeScriptInteractiveTutorial;
+			productName = JDBridgeApp;
+			productReference = 858B843318CA22B800AB12DE /* NativeScriptInteractiveTutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		858B832618CA111C00AB12DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TNS;
+				LastUpgradeCheck = 500;
+				ORGANIZATIONNAME = Telerik;
+			};
+			buildConfigurationList = 858B832918CA111C00AB12DE /* Build configuration list for PBXProject "NativeScriptInteractiveTutorial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 858B832518CA111C00AB12DE;
+			productRefGroup = 858B832F18CA111C00AB12DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				858B83EF18CA22B800AB12DE /* NativeScriptInteractiveTutorial */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		858B842C18CA22B800AB12DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD45EE7C18DC2D5800FB50C0 /* app in Resources */,
+				858B842D18CA22B800AB12DE /* InfoPlist.strings in Resources */,
+				CF42773514B14FE58C0F08B2 /* Assets.xcassets in Resources */,
+				0696A31542354D62AB64648D /* Icon-60@3x.png in Resources */,
+				03C681666D3F4C499C080337 /* Icon-Small-40.png in Resources */,
+				0E32CF6E84334F0295091C85 /* Icon-Small-40@2x.png in Resources */,
+				B42AB4417D6546AEB0976040 /* Icon-Small-40@3x.png in Resources */,
+				8E80C0562E8A4DCF901D9561 /* Icon-Small-50.png in Resources */,
+				DA03B76DB2044EA3B0E40021 /* Icon-Small-50@2x.png in Resources */,
+				3BA5DD257D1B4B839F68D411 /* Icon-Small.png in Resources */,
+				0F4681D7C5FF45B5964BE90A /* Icon-Small@2x.png in Resources */,
+				8C261755720D4E288CFBF875 /* Icon-Small@3x.png in Resources */,
+				408E4E26F5E94DAC88AC0416 /* LaunchScreen.storyboard in Resources */,
+				CBE7E523AF9F4573896E3DAB /* add.png in Resources */,
+				B40CC8F6DA434B45907FA42D /* add@2x.png in Resources */,
+				B6B3FE2CFEBF4BB6B6A01CEA /* add@3x.png in Resources */,
+				99AC23CC598448FCB55105E7 /* apple.png in Resources */,
+				98E981B88DCA42459EDBE8B3 /* apple@2x.png in Resources */,
+				1F917266613D44B9BF166C1C /* apple@3x.png in Resources */,
+				A52A45F39DB24036B4A650AF /* banana.png in Resources */,
+				CF1A56DF75BD42358C12C469 /* banana@2x.png in Resources */,
+				72A4159BD4D5487DA78C7CF5 /* banana@3x.png in Resources */,
+				BD5CAC8B115C4B8DAC16928E /* bg_inner.jpg in Resources */,
+				C5403D9CABBD40208728FB81 /* bg_inner@2x.jpg in Resources */,
+				06A9A91BC60C4321AD78CA6D /* bg_inner@3x.jpg in Resources */,
+				0DA8E8D553FE4E9EA0EAD962 /* bg_login.jpg in Resources */,
+				05BB2CF1E6F64726A8E70DC2 /* bg_login@2x.jpg in Resources */,
+				5BE6BCC735454B30BCB45936 /* bg_login@3x.jpg in Resources */,
+				0FDB45AE8E2F45548D20A15C /* build.xcconfig in Resources */,
+				77B43465340248008E92291D /* checked.png in Resources */,
+				FE8BBBA534BE46CF9B6C5BB4 /* checked@2x.png in Resources */,
+				53768F5DE2A747FC86D0B081 /* checked@3x.png in Resources */,
+				67F6E06C1FDA40B49BBB6A14 /* checked_white.png in Resources */,
+				AE86A5CC3F994A1990E91ABC /* checked_white@2x.png in Resources */,
+				3E195E7346F843048CCC20DF /* checked_white@3x.png in Resources */,
+				81AF8CECD6A54EEEA5E471C9 /* delete.png in Resources */,
+				129F745ABA19469483EA8907 /* delete@2x.png in Resources */,
+				76B8167CAA0640DE83201977 /* delete@3x.png in Resources */,
+				8CD28E6B7360456381FF32BB /* iTunesArtwork@2x.png in Resources */,
+				25E6AFC258E24D59AD8B7DAC /* icon-60.png in Resources */,
+				CF0204ADADDC4B5AA5F9CA95 /* icon-60@2x.png in Resources */,
+				AB216B0589CA4864A05B70D1 /* icon-72.png in Resources */,
+				BADBA38FBD5E4D838CC8CF25 /* icon-72@2x.png in Resources */,
+				20CF54AEE6B24C4A8D29B51D /* icon-76.png in Resources */,
+				B1BD04E79B454D25B39BB560 /* icon-76@2x.png in Resources */,
+				FDD0CE16DE5A453799723105 /* icon.png in Resources */,
+				DEE152F869D24C74AF103AC0 /* icon@2x.png in Resources */,
+				4749EC82AB2848D08DB91B57 /* logo_login.png in Resources */,
+				7C06C8289C894ACBA5624B45 /* logo_login@2x.png in Resources */,
+				FB9CC2406E64492FB6E60205 /* logo_login@3x.png in Resources */,
+				9E7D4D994393429D840E30C8 /* logo_signup.png in Resources */,
+				FA4E7C50C0B2465394F8380F /* logo_signup@2x.png in Resources */,
+				444382F8B31243709B9AD3C8 /* logo_signup@3x.png in Resources */,
+				9133921872AD44C8BC434FE3 /* menu.png in Resources */,
+				8FF4DAECD2744E1290EA2099 /* menu@2x.png in Resources */,
+				7BFA0290B2C543B681492584 /* menu@3x.png in Resources */,
+				CF6ED68E7719403F8F532365 /* nonselected.png in Resources */,
+				D37870C7E8664A7C9391D27C /* nonselected@2x.png in Resources */,
+				C54F7098968D4B2889A509E6 /* nonselected@3x.png in Resources */,
+				F7D6984BB4324FB4A223DD73 /* pear.png in Resources */,
+				7DDFF30782FF426693045626 /* pear@2x.png in Resources */,
+				F5AB12A319714A908E28FE10 /* pear@3x.png in Resources */,
+				470D98102DB0406BBE708440 /* recent.png in Resources */,
+				4B05DDF0C364497B86E3C190 /* recent@2x.png in Resources */,
+				402FEB93E86C41CD9BDAA527 /* recent@3x.png in Resources */,
+				954AA0DFF6154F71AD571076 /* selected.png in Resources */,
+				8240AFDCE667480CB4A3B020 /* selected@2x.png in Resources */,
+				122E70A78E3D4A46A1359949 /* selected@3x.png in Resources */,
+				108EEB4BF57F44BA94CD0D54 /* unchecked.png in Resources */,
+				8EB1CDF226664567A4526D78 /* unchecked@2x.png in Resources */,
+				EA25ECF8AAF845CF915DF1C9 /* unchecked@3x.png in Resources */,
+				5A09B7BC0C4D4E6FADE0DA68 /* unchecked_white.png in Resources */,
+				824A710C899643A2953ED97F /* unchecked_white@2x.png in Resources */,
+				47CAEC44C82F407C8DB37A02 /* unchecked_white@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6AF908C3E71CD2054514627F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NativeScriptInteractiveTutorial-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C97FD7AC1ADE5369004DB2A4 /* NativeScript PreBuild */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "NativeScript PreBuild";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$SRCROOT/internal/nativescript-pre-build\"";
+			showEnvVarsInLog = 0;
+		};
+		CD3EAD351B05FF060042DBFC /* NativeScript PostBuild */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "NativeScript PostBuild";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$SRCROOT/internal/nativescript-post-build\"";
+			showEnvVarsInLog = 0;
+		};
+		CD62955B1BB2651D00AE3A93 /* NativeScript PreLink */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "NativeScript PreLink";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$SRCROOT/internal/nativescript-pre-link\"";
+			showEnvVarsInLog = 0;
+		};
+		E5B396373B12CA5310B96DBB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NativeScriptInteractiveTutorial/Pods-NativeScriptInteractiveTutorial-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/QBImagePickerController/QBImagePickerController.framework",
+				"${BUILT_PRODUCTS_DIR}/SAMKeychain/SAMKeychain.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QBImagePickerController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SAMKeychain.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NativeScriptInteractiveTutorial/Pods-NativeScriptInteractiveTutorial-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		858B83F218CA22B800AB12DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD62955D1BB2678900AE3A93 /* main.m in Sources */,
+				C4557C6B3DD24DFF9D8C4EC1 /* NativeScriptEmbedder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		858B833A18CA111C00AB12DE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				858B833B18CA111C00AB12DE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		858B835818CA111C00AB12DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 arm64";
+			};
+			name = Debug;
+		};
+		858B835918CA111C00AB12DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 arm64";
+			};
+			name = Release;
+		};
+		858B843118CA22B800AB12DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDD59A261BB43B5D00EC2671 /* build-debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../node_modules/nativescript-ui-autocomplete/platforms/ios\"",
+					"\"$(SRCROOT)/../../node_modules/nativescript-ui-calendar/platforms/ios\"",
+					"\"$(SRCROOT)/../../node_modules/nativescript-ui-chart/platforms/ios\"",
+					"\"$(SRCROOT)/../../node_modules/nativescript-ui-dataform/platforms/ios\"",
+					"\"$(SRCROOT)/../../node_modules/nativescript-ui-gauge/platforms/ios\"",
+					"\"$(SRCROOT)/../../node_modules/nativescript-ui-listview/platforms/ios\"",
+					"\"$(SRCROOT)/../../node_modules/nativescript-ui-sidedrawer/platforms/ios\"",
+					"\"$(SRCROOT)/../../node_modules/nativescript-ui-core/platforms/ios\"",
+					"\"$(SRCROOT)/../../node_modules/tns-core-modules-widgets/platforms/ios\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NativeScriptInteractiveTutorial/NativeScriptInteractiveTutorial-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../node_modules/tns-core-modules/platforms/ios/src\"",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/NativeScriptInteractiveTutorial/NativeScriptInteractiveTutorial-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = NativeScriptInteractiveTutorial;
+				VALID_ARCHS = "armv7 arm64";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		858B843218CA22B800AB12DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDD59A271BB43B5D00EC2671 /* build-release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../node_modules/nativescript-ui-autocomplete/platforms/ios\"",
+					"\"$(SRCROOT)/../../node_modules/nativescript-ui-calendar/platforms/ios\"",
+					"\"$(SRCROOT)/../../node_modules/nativescript-ui-chart/platforms/ios\"",
+					"\"$(SRCROOT)/../../node_modules/nativescript-ui-dataform/platforms/ios\"",
+					"\"$(SRCROOT)/../../node_modules/nativescript-ui-gauge/platforms/ios\"",
+					"\"$(SRCROOT)/../../node_modules/nativescript-ui-listview/platforms/ios\"",
+					"\"$(SRCROOT)/../../node_modules/nativescript-ui-sidedrawer/platforms/ios\"",
+					"\"$(SRCROOT)/../../node_modules/nativescript-ui-core/platforms/ios\"",
+					"\"$(SRCROOT)/../../node_modules/tns-core-modules-widgets/platforms/ios\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NativeScriptInteractiveTutorial/NativeScriptInteractiveTutorial-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../node_modules/tns-core-modules/platforms/ios/src\"",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/NativeScriptInteractiveTutorial/NativeScriptInteractiveTutorial-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = NativeScriptInteractiveTutorial;
+				VALID_ARCHS = "armv7 arm64";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		858B832918CA111C00AB12DE /* Build configuration list for PBXProject "NativeScriptInteractiveTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				858B835818CA111C00AB12DE /* Debug */,
+				858B835918CA111C00AB12DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		858B843018CA22B800AB12DE /* Build configuration list for PBXNativeTarget "NativeScriptInteractiveTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				858B843118CA22B800AB12DE /* Debug */,
+				858B843218CA22B800AB12DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 858B832618CA111C00AB12DE /* Project object */;
+}

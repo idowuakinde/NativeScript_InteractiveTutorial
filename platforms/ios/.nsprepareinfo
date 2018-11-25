@@ -1,0 +1,31 @@
+{
+	"time": "Fri Nov 23 2018 19:44:37 GMT+0100 (West Africa Standard Time)",
+	"nativePlatformStatus": "3",
+	"bundle": false,
+	"release": false,
+	"changesRequireBuild": true,
+	"projectFileHash": "36b6670990443518042887243ef95c9777595a3627b9a74d9bed65473e92be11",
+	"changesRequireBuildTime": "Fri Nov 23 2018 19:44:37 GMT+0100 (West Africa Standard Time)",
+	"appFilesHashes": {
+		"/Users/greyjedi/TutorialsAndSamples/Mobile/NativeScript/Templates/NativeScript_InteractiveTutorial/app/views/shared/utils/hint-util.js": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+		"/Users/greyjedi/TutorialsAndSamples/Mobile/NativeScript/Templates/NativeScript_InteractiveTutorial/app/.vscode/launch.json": "8504fe9f1ba56c1ca623a2f28ea39dfc66ef187b",
+		"/Users/greyjedi/TutorialsAndSamples/Mobile/NativeScript/Templates/NativeScript_InteractiveTutorial/app/app.css": "8dbc66a2b484302ba8338b46e0c3cc265dbd82d2",
+		"/Users/greyjedi/TutorialsAndSamples/Mobile/NativeScript/Templates/NativeScript_InteractiveTutorial/app/app-root.xml": "abc36af8717b94a522099a0808cbdd7371a56d30",
+		"/Users/greyjedi/TutorialsAndSamples/Mobile/NativeScript/Templates/NativeScript_InteractiveTutorial/app/app.js": "dc348a431d90f05be7354ef6c373e84c14348f61",
+		"/Users/greyjedi/TutorialsAndSamples/Mobile/NativeScript/Templates/NativeScript_InteractiveTutorial/app/images/add.png": "29ed20c8be32fe8eb0bce2f9118ae48b62c503a2",
+		"/Users/greyjedi/TutorialsAndSamples/Mobile/NativeScript/Templates/NativeScript_InteractiveTutorial/app/package.json": "5ad662312ca6925b78a7d8ed70fb1151e9a74195",
+		"/Users/greyjedi/TutorialsAndSamples/Mobile/NativeScript/Templates/NativeScript_InteractiveTutorial/app/views/list/list-page.css": "e9685b769c93f2aefd024638034ad9f80ee7a47e",
+		"/Users/greyjedi/TutorialsAndSamples/Mobile/NativeScript/Templates/NativeScript_InteractiveTutorial/app/images/delete.png": "ddae2c7a2c14a2cc0cd887aab740f311d018e8fb",
+		"/Users/greyjedi/TutorialsAndSamples/Mobile/NativeScript/Templates/NativeScript_InteractiveTutorial/app/views/list/list-page.xml": "3f2494c36d3c267d4d749d1debfc80a7c8cf77d6",
+		"/Users/greyjedi/TutorialsAndSamples/Mobile/NativeScript/Templates/NativeScript_InteractiveTutorial/app/views/list/list-page.js": "82158289ba10e9149c1a9391cbaf0351d8ce631c",
+		"/Users/greyjedi/TutorialsAndSamples/Mobile/NativeScript/Templates/NativeScript_InteractiveTutorial/app/views/login/login-page.css": "d06491651f2a170665025a71448566c48aea599e",
+		"/Users/greyjedi/TutorialsAndSamples/Mobile/NativeScript/Templates/NativeScript_InteractiveTutorial/app/views/login/login-page.js": "24458473032a87382ad9772be3fcc1e476912f09",
+		"/Users/greyjedi/TutorialsAndSamples/Mobile/NativeScript/Templates/NativeScript_InteractiveTutorial/app/views/login/login-page.xml": "4a623dd481212b98c62cb88b11f8ed01eec024e7",
+		"/Users/greyjedi/TutorialsAndSamples/Mobile/NativeScript/Templates/NativeScript_InteractiveTutorial/app/views/shared/config.js": "c3e209a28957939fa76764a531c4e42aede5944e",
+		"/Users/greyjedi/TutorialsAndSamples/Mobile/NativeScript/Templates/NativeScript_InteractiveTutorial/app/views/shared/utils/status-bar-util.js": "59321afa8fc8f57150b116a60a9930cda5389cbc",
+		"/Users/greyjedi/TutorialsAndSamples/Mobile/NativeScript/Templates/NativeScript_InteractiveTutorial/app/views/shared/view-models/grocery-list-view-model.js": "3650ace070d6c77f5667476b685e724fbb5ab539",
+		"/Users/greyjedi/TutorialsAndSamples/Mobile/NativeScript/Templates/NativeScript_InteractiveTutorial/app/views/shared/view-models/user-view-model.js": "2dbb7f13287412ff0e0b5c24fafd6b331bf94613",
+		"/Users/greyjedi/TutorialsAndSamples/Mobile/NativeScript/Templates/NativeScript_InteractiveTutorial/app/images/logo.png": "9f4858342162888353ba20b598a8cf30f01ccbe2",
+		"/Users/greyjedi/TutorialsAndSamples/Mobile/NativeScript/Templates/NativeScript_InteractiveTutorial/app/images/background.jpg": "a6a4ff10a4e944978093d7963cd76037c3c69790"
+	}
+}
